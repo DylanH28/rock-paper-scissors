@@ -1,0 +1,77 @@
+h1{
+    color: rgb(231, 39, 39);
+    text-align: center;
+    font-size: 80px;
+    word-spacing: 5px;
+    margin-top: 20px;
+    text-shadow: 0 0 10px #f78080, 0 0 15px #fd9996, 0 0 20px #f89797;
+}
+
+main{
+    max-width: 600px;
+    max-height: 900px;
+    margin: auto;
+    margin-top: 50px;
+    border: solid red;
+    box-shadow: 0 0 10px #fd8888, 0 0 15px #f87878, 0 0 20px #f17474;
+    border-radius: 8px;
+}
+#result{
+    word-spacing: 2px;
+    font-size: larger;
+}
+body{
+    background: #031321;
+    color: red;
+    font-family: 'Orbitron', sans-serif;
+}
+#scorePlayer, #scoreComputer{
+    font-size: 100px;
+    text-decoration: none;
+}
+button:hover{
+    color: #0f0909;
+    background: #f53e3e;
+    box-shadow: 0 0 10px #fd8888, 0 0 40px #fd8888, 0 0 80px #fd8888;
+    transition: 0.2s;
+}
+#display{
+    border: solid 1px ;
+    width: 100%;
+    height: 300px;
+    display: flex;
+    justify-content: space-around;
+}
+button{
+    width: 120px;
+    height: 60px;
+    background-color: #031321;
+    color: red;
+    border: none;
+    margin: 20px 10px 0px 10px ;
+    outline: none;
+    border-radius: 5px;
+    font-size: 20px;
+    font-family: 'Orbitron', sans-serif;
+
+}
+#options{
+    display: flex;
+    justify-content: space-around;
+}
+#playAgain{
+    display: block;
+    margin: auto;
+    width: 300px;
+    margin-top: 40px;
+    margin-bottom: 20px;
+    font-size: 25px;
+}
+#messages{
+    text-align: center;
+    border: solid;
+    display: flex;
+    flex-direction: column;
+    border-left: 0;
+    border-right: 0;
+}
